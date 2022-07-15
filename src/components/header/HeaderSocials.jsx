@@ -2,7 +2,6 @@ import React from 'react'
 import './header.css'
 import {BsLinkedin} from 'react-icons/bs'
 import {GoMarkGithub} from 'react-icons/go'
-import {FaDribbbleSquare} from 'react-icons/fa'
 
 const HeaderSocials = () => {
   return (
