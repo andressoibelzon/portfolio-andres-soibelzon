@@ -25,7 +25,7 @@ const data = [
         image : IMG3,
         title : 'Real Glassmorphism HTML & CSS',
         github : ' https://github.com/andressoibelzon/real-glassmorphism ',
-        demo : 'https://real-glassmorphism.vercel.app/hp.html'
+        demo : 'https://real-glassmorphism.vercel.app/'
     }
 ]
 
