@@ -8,8 +8,7 @@ import Testimonials from './components/testimonials/Testimonials'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
 import Portfolio from './components/portf/Portfolio'
-
-
+import React from 'react';
 
 
 function App() {
