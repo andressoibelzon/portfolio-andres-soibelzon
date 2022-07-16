@@ -4,6 +4,8 @@ import ME from '../../assets/me-about.jpg'
 import { FiAward } from 'react-icons/fi'
 import { FiUsers } from 'react-icons/fi'
 import { FiFolderPlus } from 'react-icons/fi'
+import Experience from '../experience/Experience'
+
 
 const About = () => {
   return (
@@ -14,7 +16,9 @@ const About = () => {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={ME} alt='About Image' />
+          <Experience />
+
+            {/*<img src={ME} alt='About Image' />*/}
           </div>
           </div>
 

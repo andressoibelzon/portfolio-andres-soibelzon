@@ -1,11 +1,15 @@
 section {
-    padding-top: 3rem;
+    padding-top: 0rem;
 }
 
 .experience__container {
-    display: grid;
+    width: 40rem;   
+    left: calc(50% - 20rem);
+    padding-bottom: 6rem;
+    
+    /*display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 2rem;
+    gap: 2rem;*/
 }
 
 .experience__container > div {
@@ -16,11 +20,11 @@ section {
     transition: var(--transition);
 }
 
-.experience__container > div:hover {
+/*.experience__container > div:hover {
     background: transparent;
     border-color: var(--color-primary-variant);
     cursor: default;
-}
+}*/
 
 .experience__container > div h3 {
     text-align: center;

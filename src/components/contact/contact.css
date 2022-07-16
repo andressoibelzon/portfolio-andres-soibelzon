@@ -1,3 +1,9 @@
+#contact{
+    height: 100vh;
+    padding-top: 3rem;
+    overflow: hidden;
+}
+
 .container.contact__container {
     width: 58%;
     display: grid;
@@ -49,7 +55,7 @@ input, textarea {
     padding: 1.5rem;
     border-radius: 0.5rem;
     background: transparent;
-    border: 2px solid var(--color-primary-variant);
+    border: 2px solid var(--color-primary);
     resize: none;
     color: var(--color-white);
 }
