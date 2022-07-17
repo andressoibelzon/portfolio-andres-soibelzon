@@ -1,8 +1,11 @@
 #about {
-    height: 100vh;
+    height: 80vh;
     padding-top: 3rem;
     overflow: hidden;
 }
+
+
+
 
 .about__container {
     display: grid;
@@ -22,12 +25,7 @@
 .about__me-image {
     border-radius: 2rem;
     overflow: hidden;
-    transform: scale(100%) ;
-    transition: var(--transition);
-}
-
-.about__me-image:hover {
-    transform: scale(110%) ;
+    padding-bottom: 1rem;
 }
 
 .about__cards {
@@ -73,6 +71,10 @@
 
 /* =========== MEDIA QUERIES (MEDIUM  DEVICES) ========== */
 @media screen and (max-width: 1024px) {
+    #about {
+        height: 100vh;
+    }
+
     .about__container {
         grid-template-columns: 1fr; 
         gap: 0;   
@@ -88,20 +90,24 @@
 
     /* =========== MEDIA QUERIES (SMALL  DEVICES) ========== */
 @media screen and (max-width: 600px) {
-    .about__me {
-        width: 65%;
-        margin: 0 auto 3rem;
-    }
-    .about__cards {
-        grid-template-columns: 1fr 1fr;
-        gap: 1rem;
-    }
-    .about__card {
-        padding: 1.3rem;
 
+    #about {
+        height: 160vh;
+        padding-top: 3rem;
+        overflow: hidden;
     }
-    .about__content {
-        text-align: center;
+
+    #about h2 {
+        padding-bottom: 2rem;
+    }
+
+        .about__container {
+        grid-template-columns: 1fr; 
+        gap: 2rem;   
+    }
+
+    .about__content p {
+        margin: 1rem 0 1.5rem;
     }
     .about__content p {
         margin: 1.5rem 0;

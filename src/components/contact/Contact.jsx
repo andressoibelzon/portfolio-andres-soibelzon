@@ -28,29 +28,26 @@ const Contact = () => {
 
   return (
     <section id='contact'>
-      <h5>Get In Touch</h5>
+      {/*<h5>Get In Touch</h5>*/}
       <h2>Contact Me</h2>
 
       <div className="container contact__container">
         <div className="contact__options">
-          <article className="contact__option">
+          <a href='mailto:a.soibelzon@gmail.com' target="_blank" className="contact__option">
             <MdOutlineMail className='contact__option-icon'/>
             <h4>Email</h4>
             <h5>a.soibelzon@gmail.com</h5>
-            <a href='mailto:a.soibelzon@gmail.com' target="_blank">Send a message</a>
-          </article>
-          <article className="contact__option">
+          </a>
+          <a href='https://www.linkedin.com/in/andres-soibelzon-06b14b191/' target="_blank" className="contact__option">
             <ImLinkedin2 className='contact__option-icon' />
             <h4>Linkedin</h4>
             <h5>andres-soibelzon-06b14b191</h5>
-            <a href='https://www.linkedin.com/in/andres-soibelzon-06b14b191/' target="_blank">Go to LinkedIn</a>
-          </article>
-          <article className="contact__option">
+          </a>
+          <a href="https://api.whatsapp.com/send?phone=5491165708981" target="_blank" className="contact__option">
             <AiOutlineWhatsApp className='contact__option-icon'/>
             <h4>WhatsApp</h4>
             <h5>+5491165708981</h5>
-            <a href="https://api.whatsapp.com/send?phone=5491165708981" target="_blank">Send a whatsapp</a>
-          </article>
+            </a>
         </div>
         {/*END OF CONTACT OPTIONS*/}
         <form ref={form} onSubmit={sendEmail}>

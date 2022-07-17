@@ -4,7 +4,6 @@ import './footer.css'
 const Footer = () => {
   return (
     <footer>
-      <a href='#' className='footer_logo'>Andres Soibelzon</a>
 
       <ul className='permalinks'>
         <li><a href='#'>Home</a></li>
@@ -17,7 +16,7 @@ const Footer = () => {
       </ul>
 
       <div className="footer__copyright">
-        <small>&copy; Andres Soibelzon Full Stack Developer</small>
+        <small>&copy; Andres Soibelzon Full Frontend Developer</small>
       </div>
 
 
