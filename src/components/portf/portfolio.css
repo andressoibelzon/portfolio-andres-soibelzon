@@ -54,7 +54,7 @@
 @media screen and (max-width: 600px) {
 
     #portfolio {
-        height: 260vh;
+        height: 180vh;
     }
     .portfolio__container {
         grid-template-columns: 1fr ;
