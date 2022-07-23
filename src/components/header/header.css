@@ -36,12 +36,7 @@ header .text-light {
     left: 0;
     bottom: 3rem;
 }
-.header__socials::after {
-    content: '';
-    width: 1px;
-    height: 2rem;
-    background: var(--color-primary);
-}
+
 
 /* ======== ME ========== */
 .me {
@@ -70,7 +65,7 @@ header .text-light {
 /* =========== MEDIA QUERIES (MEDIUM  DEVICES) ========== */
 @media screen and (max-width: 1024px) {
     header {
-        height: 68vh;
+        height: 100vh;
     }
     
     }

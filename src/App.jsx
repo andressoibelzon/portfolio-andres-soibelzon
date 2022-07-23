@@ -9,19 +9,30 @@ import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
 import Portfolio from './components/portf/Portfolio'
 import React from 'react';
+import Fade from 'react-reveal/Fade';
+import Zoom from 'react-reveal/Zoom';
+
 
 
 function App() {
   return (
     <>
+          <Fade bottom>
       <Header />
+      </Fade>
       <Nav />
+      <Fade bottom>
       <About />
+      </Fade>
       {/*<Experience />*/}
       {/*<Services />*/}
+      <Fade bottom>
       <Portfolio />
+      </Fade>
       {/*<Testimonials />*/}
+      <Fade bottom>
       <Contact />
+      </Fade>
       <Footer />
     </>
   )
